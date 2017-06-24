@@ -2,7 +2,7 @@ var webpack = require ('webpack');
 var path = require('path');
 
 var config = {
-    entry : path.resolve(__dirname,'src/index.html'),
+    entry : path.resolve(__dirname,'src/index.js'),
     output :{
         path:path.resolve(__dirname,'src/dist'),
         filename: 'bundle.js'
@@ -12,7 +12,7 @@ var config = {
       {
         test : /\.jsx?/,
         include : path.resolve(__dirname,'src'),
-        loader : 'babel'
+        loader : 'babel-loader'
       }
     ]
   }
