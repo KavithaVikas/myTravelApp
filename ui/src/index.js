@@ -10,13 +10,13 @@ export default class Login extends React.Component {
                     <div className="panel-heading">Login to TravelApp</div>
                     <div className="panel-body">
                         <div>
-                            UserName: <input type="text" id="userName" />
+                         <input type="text" id="email" placeholder="Your Email Address" className = "login-user-input-email login-user-input" />
                         </div>
                         <div>
-                            Password: <input type="text" id="password" />
+                            <input type="text" id="password" placeholder= "Enter Password" className = "login-user-input-password login-user-input" />
                         </div>
                         <div>
-                            <button type="button"> Login </button>
+                            <button type="button" className="login-login-button"> Log in </button>
                         </div>
                     </div>
                 </div>

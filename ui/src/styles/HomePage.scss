@@ -1,7 +1,52 @@
+
+.panel-default {
+    border-color: #ddd;
+    margin-top: 250px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-color: lightblue;
+}
 .panel-default>.panel-heading {
     color: #333;
-    background-color: #f5f5f5;
+    background-color: lightskyblue;
     border-color: #ddd;
     padding-left: 180px;
     font-size: 20px;
+    font-family: Whitney;
+}
+.login-user-input-email {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login-user-input {
+    display: block;
+    color: #282c3f;
+    padding-right: 40px;
+    font-size: 15px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+.login-user-input-password {
+    border-top: 1px solid #d5d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.login-login-button {
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: Whitney;
+    margin-top:20px
 }
