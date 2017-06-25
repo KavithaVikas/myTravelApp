@@ -50,3 +50,34 @@
     font-family: Whitney;
     margin-top:20px
 }
+
+.login-button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 162px;
+    padding-left: 18%;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    color: #696b79;
+    height: 50px;
+    border: 1px solid #bfc0c6;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.third-party-buttons{
+    border: 1px solid #bfc0c6;
+    padding-left: 5%;
+    padding-right: 5%;
+    height:50px;
+    text-align: left;
+    display: inline-block;
+}
+
+.login-info-text {
+    color: #94969f;
+    font-size: 12px;
+}

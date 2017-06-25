@@ -10,6 +10,8 @@ var config = {
     module : {
     rules: [
       {test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel-loader']},
+      {test: /\.(jpe?g|png|gif)$/i, loader: 'file-loader?name=[path]][name].[ext]'},
+      {test: /\.ico$/, loader: 'file-loader?name=[name].[ext]'},
       {test: /(\.css|\.scss|\.sass)$/, loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']}
     ]
   }
