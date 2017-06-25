@@ -8,12 +8,9 @@ var config = {
         filename: 'bundle.js'
     },
     module : {
-    loaders : [
-      {
-        test : /\.jsx?/,
-        include : path.resolve(__dirname,'src'),
-        loader : 'babel-loader'
-      }
+    rules: [
+      {test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel-loader']},
+      {test: /(\.css|\.scss|\.sass)$/, loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']}
     ]
   }
 
